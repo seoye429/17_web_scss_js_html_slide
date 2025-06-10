@@ -1,0 +1,34 @@
+.slidedown{
+    width: 20%;
+    padding: 14px 0;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    .slide-down-image{
+        height: 40px;
+        border-left: 1px dashed lightgrey;
+        padding-left: 12px;
+    }
+    
+    .slide-down-image:first-child {
+        border-left: none;
+    }
+    .slide-down-image:last-child{
+        border-left: none;
+    }
+    .slide-down-text{
+        font-size: 12px;
+        text-indent: 10px;
+        font-weight: 600;
+    }
+    .slide-down-text:hover{
+        color: red;
+        cursor: pointer;
+    }
+}
+.line{
+        border-left: 1px dashed lightgrey;
+        width: 2px;
+        height: 40px;
+        vertical-align: middle;
+        margin-top: 14px;
+    }
